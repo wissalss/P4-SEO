@@ -30,7 +30,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 ;
+    padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -422,9 +422,11 @@ button {
     width: 100%;
     font-size: 15px;
 }
-.formbtn{
+
+.formbtn {
     width: 103%;
 }
+
 .scrollToTop {
     width: 40px;
     height: 40px;
