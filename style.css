@@ -30,7 +30,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -215,7 +215,7 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal; /*-- a voir--*/
+    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -278,20 +278,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
- /* la 1ère P / texte au lieu de l'image
- blockquote p:nth-child(1) {
-    font-size: 1.2em;
-    font-style: italic;
-    width: 90%;
-    line-height: 25px;
-    margin-left: 20px
-}
 
-blockquote p:nth-child(2) {
-    font-size: .9em;
-    margin-top: -10px;
-    text-align: center
-}*/ 
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -402,7 +389,6 @@ button {
 
 .icon-md {
     font-size: 33px!important;
-    /* color: #000000; */
 }
 
 .icon-lg {
@@ -432,8 +418,13 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    padding: .5rem .4rem;
+    width: 100%;
+    font-size: 15px;
 }
-
+.formbtn{
+    width: 103%;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -567,7 +558,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
 }
 
 .container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
 }
 
 .hero-bloc-text {
@@ -589,7 +580,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -620,34 +611,33 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
-/* #bloc-2-services h2 {
+
+#bloc-2-services h2 {
     width: 60%;
     margin: auto;
-    margin-bottom: 20px
+    margin-bottom: 2rem;
 }
 
-#bloc-4-portfolio h2 {
-    width: 45%;
+.textimg {
+    width: 80%;
+    font-size: 18px;
+    font-style: italic;
     margin: auto;
-    text-align: center
 }
 
-#bloc-5-cta {
-    position: relative;
-    height: 350px
+.textimgp {
+    width: 80%;
+    font-size: 15px;
+    margin: auto;
 }
 
 #bloc-5-cta h2 {
-    display: block;
-    position: absolute;
-    width: 40%;
-    top: 30%;
-    left: 30%
+    margin-top: 4rem;
 }
 
 #bloc-5-cta .btn {
-    margin-top: 150px
-} */
+    margin-bottom: 4rem;
+}
 
 h3 {
     font-size: 15px;
@@ -693,7 +683,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);  
+    background-color: rgba(165, 147, 99, 0.7);
     /* changement de bg color pour l'accessibilité*/
     padding: 40px 40px 40px 40px;
 }
@@ -814,7 +804,7 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-    /* à voir */ 
+    /* à voir */
     .bloc-group, .bloc-group .bloc {
         display: block;
         width: 100%;
@@ -823,7 +813,7 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-        /* padding L R à voir */ 
+        /* padding L R à voir */
     }
 }
 
@@ -967,27 +957,33 @@ h4 {
 
 #bloc-6 {
     z-index: 1;
-    /* height: 350px;
-    padding-left: 0 */
+    width: 100%;
 }
 
 #bloc-6 h1 {
-    color: #000!important;
+    color: black!important;
     z-index: 3;
     text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
 }
 
 #bloc-6 p {
     color: black!important;
     z-index: 3;
-    font-size: 16px;
+    font-size: 25px;
     text-align: center;
+    margin-bottom: 4rem;
+    width: 70%;
+    font-weight: bold;
 }
-.form-group{
+
+.form-group {
     display: flex;
     flex-direction: column;
 }
-.formstyle{
+
+.formstyle {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -999,9 +995,11 @@ h4 {
     padding-top: 30px;
     padding-bottom: 20px
 }
-input::placeholder, textarea::placeholder{
+
+input::placeholder, textarea::placeholder {
     font-size: 15px;
 }
+
 label {
     font-weight: 700;
     padding: .5rem 0;
