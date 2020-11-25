@@ -106,7 +106,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn, .d-bloc .navbar a, .d-bloc .navbar-brand, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a {
+.d-bloc .a-btn, .d-bloc .navbar a, .d-bloc .navbar-brand, .d-bloc a .icon-sm, , .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
 
@@ -390,6 +390,7 @@ button {
 
 .icon-md {
     font-size: 33px!important;
+    color: #333333;
 }
 
 .icon-lg {
@@ -553,7 +554,7 @@ a[data-lightbox]:hover img {
 h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -594,7 +595,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -664,10 +665,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -710,8 +707,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
-    /* la color de btn contact, à voir */
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1003,32 +999,39 @@ label {
     font-weight: 700;
     padding: .5rem 0;
 }
-.menucontact{
+
+.menucontact {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
 }
+
 .row.links {
     display: flex;
     justify-content: center;
     color: black;
     width: 100%;
 }
-.listelinks{
+
+.listelinks {
     padding: 0 5rem;
 }
-.text-center.white{
+
+.text-center.white {
     text-align: center;
-    
+    color: black;
+    font-size: small;
 }
-@media (max-width: 700px){
-    .row.links{
+
+@media (max-width: 700px) {
+    .row.links {
         display: flex;
         flex-direction: column;
     }
 }
-.socialicons{
+
+.socialicons {
     display: flex;
     justify-content: space-between;
 }
