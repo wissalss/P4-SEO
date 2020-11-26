@@ -557,10 +557,6 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
     color: black!important;
 }
 
-.container {
-    /* max-width: 1000px; */
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -680,7 +676,6 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    /* changement de bg color pour l'accessibilité*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -694,7 +689,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: rgb(22, 28, 49);
 }
 
 .bgc-atomic-tangerine {
@@ -963,7 +958,7 @@ h4 {
     font-weight: bold;
 }
 
-#bloc-6 p {
+#bloc-6 h2 {
     color: black!important;
     z-index: 3;
     font-size: 25px;
