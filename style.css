@@ -190,7 +190,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .row-no-gutters {
@@ -422,7 +422,7 @@ button {
     box-shadow: none;
     padding: .5rem .4rem;
     width: 100%;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .scrollToTop {
@@ -441,7 +441,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -591,6 +591,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
+    margin-bottom: 50px;
     color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -604,7 +605,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -616,15 +617,16 @@ h2 {
 
 .textimg {
     width: 80%;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     margin: auto;
 }
 
 .textimgp {
     width: 80%;
-    font-size: 15px;
+    font-size: 16px;
     margin: auto;
+    padding-top: .5rem;
 }
 
 #bloc-5-cta h2 {
@@ -636,7 +638,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -987,7 +989,7 @@ h4 {
 }
 
 input::placeholder, textarea::placeholder {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 label {
@@ -1016,7 +1018,7 @@ label {
 .text-center.white {
     text-align: center;
     color: black;
-    font-size: small;
+    font-size: 16px;
 }
 
 @media (max-width: 700px) {
